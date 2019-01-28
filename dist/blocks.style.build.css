@@ -1,18 +1,1 @@
-/**
- * #.# Common SCSS
- *
- * Can include things like variables and mixins
- * that are used across the project.
-*/
-/**
- * #.# Styles
- *
- * CSS for both Frontend+Backend.
- */
-.wp-block-cgb-block-alert {
-  background: orangered;
-  border: 0.2rem solid #292929;
-  color: #292929;
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 2rem; }
+.wp-block-simple-alert{background:#FFFAB5;margin-bottom:2em;padding:1.25em 1.75em;font-weight:500}.wp-block-simple-alert p:last-child,.wp-block-simple-alert ul:last-child,.wp-block-simple-alert li:last-child,.wp-block-simple-alert ol:last-child{margin-bottom:0}
