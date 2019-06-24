@@ -33,7 +33,7 @@ registerBlockType('simple/alert', {
         return (
             <RichText
                 tagName="div"
-                className={className}
+                className={`${className} bg-yellow padding-2 margin-top-2`}
                 value={attributes.content}
                 onChange={(content) => setAttributes({ content })}
                 placeholder={__('Enter text...', 'custom-block')}
